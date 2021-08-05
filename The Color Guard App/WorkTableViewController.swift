@@ -8,38 +8,52 @@
 import UIKit
 
 class WorkTableViewController: UITableViewController {
+    
+    var shows : [Work] = [] // added after func createShow()
 
     override func viewDidLoad() {
-        super.viewDidLoad()
+      super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+      shows = createShows()
+        
     }
+    
+    func createShows() -> [Work] {
+
+      let halftime1 = Work()
+        halftime1.showTitle = "Back in Black"
+        halftime1.season = "Outdoor '21"
+
+      let halftime2 = Work()
+        halftime2.showTitle = "Black Parade"
+        halftime2.season = "Outdoor '21"
+
+      return [halftime1, halftime2]
+    } // hard coded for now
+    
 
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+        return shows.count // added after var shows : [Work] = [] & shows = createShows()
     }
 
-    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 
-        // Configure the cell...
+        let show = shows[indexPath.row]
+        
+        cell.textLabel?.text = show.showTitle
+        
+        cell.detailTextLabel?.text = show.season
 
         return cell
     }
-    */
+
 
     /*
     // Override to support conditional editing of the table view.
