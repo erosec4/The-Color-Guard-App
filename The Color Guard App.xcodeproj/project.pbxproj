@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		9570CDE626BB90E5002E066D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9570CDE526BB90E5002E066D /* AppDelegate.swift */; };
 		9570CDE826BB90E5002E066D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9570CDE726BB90E5002E066D /* SceneDelegate.swift */; };
-		9570CDEA26BB90E5002E066D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9570CDE926BB90E5002E066D /* ViewController.swift */; };
 		9570CDED26BB90E5002E066D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9570CDEB26BB90E5002E066D /* Main.storyboard */; };
 		9570CDF026BB90E5002E066D /* The_Color_Guard_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9570CDEE26BB90E5002E066D /* The_Color_Guard_App.xcdatamodeld */; };
 		9570CDF226BB90E9002E066D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9570CDF126BB90E9002E066D /* Assets.xcassets */; };
@@ -20,7 +19,6 @@
 		9570CDE226BB90E5002E066D /* The Color Guard App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Color Guard App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9570CDE526BB90E5002E066D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9570CDE726BB90E5002E066D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9570CDE926BB90E5002E066D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9570CDEC26BB90E5002E066D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9570CDEF26BB90E5002E066D /* The_Color_Guard_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = The_Color_Guard_App.xcdatamodel; sourceTree = "<group>"; };
 		9570CDF126BB90E9002E066D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +58,6 @@
 			children = (
 				9570CDE526BB90E5002E066D /* AppDelegate.swift */,
 				9570CDE726BB90E5002E066D /* SceneDelegate.swift */,
-				9570CDE926BB90E5002E066D /* ViewController.swift */,
 				9570CDEB26BB90E5002E066D /* Main.storyboard */,
 				9570CDF126BB90E9002E066D /* Assets.xcassets */,
 				9570CDF326BB90E9002E066D /* LaunchScreen.storyboard */,
@@ -140,7 +137,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9570CDEA26BB90E5002E066D /* ViewController.swift in Sources */,
 				9570CDE626BB90E5002E066D /* AppDelegate.swift in Sources */,
 				9570CDF026BB90E5002E066D /* The_Color_Guard_App.xcdatamodeld in Sources */,
 				9570CDE826BB90E5002E066D /* SceneDelegate.swift in Sources */,
