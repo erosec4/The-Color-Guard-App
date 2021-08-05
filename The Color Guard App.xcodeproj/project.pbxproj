@@ -13,6 +13,8 @@
 		9570CDF026BB90E5002E066D /* The_Color_Guard_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9570CDEE26BB90E5002E066D /* The_Color_Guard_App.xcdatamodeld */; };
 		9570CDF226BB90E9002E066D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9570CDF126BB90E9002E066D /* Assets.xcassets */; };
 		9570CDF526BB90E9002E066D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9570CDF326BB90E9002E066D /* LaunchScreen.storyboard */; };
+		9570CDFD26BB9370002E066D /* WorkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9570CDFC26BB9370002E066D /* WorkTableViewController.swift */; };
+		9570CDFF26BB93C9002E066D /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9570CDFE26BB93C9002E066D /* Work.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9570CDF126BB90E9002E066D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9570CDF426BB90E9002E066D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9570CDF626BB90E9002E066D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9570CDFC26BB9370002E066D /* WorkTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkTableViewController.swift; sourceTree = "<group>"; };
+		9570CDFE26BB93C9002E066D /* Work.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				9570CDE526BB90E5002E066D /* AppDelegate.swift */,
 				9570CDE726BB90E5002E066D /* SceneDelegate.swift */,
 				9570CDEB26BB90E5002E066D /* Main.storyboard */,
+				9570CDFE26BB93C9002E066D /* Work.swift */,
+				9570CDFC26BB9370002E066D /* WorkTableViewController.swift */,
 				9570CDF126BB90E9002E066D /* Assets.xcassets */,
 				9570CDF326BB90E9002E066D /* LaunchScreen.storyboard */,
 				9570CDF626BB90E9002E066D /* Info.plist */,
@@ -139,6 +145,8 @@
 			files = (
 				9570CDE626BB90E5002E066D /* AppDelegate.swift in Sources */,
 				9570CDF026BB90E5002E066D /* The_Color_Guard_App.xcdatamodeld in Sources */,
+				9570CDFF26BB93C9002E066D /* Work.swift in Sources */,
+				9570CDFD26BB9370002E066D /* WorkTableViewController.swift in Sources */,
 				9570CDE826BB90E5002E066D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
